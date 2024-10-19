@@ -1,0 +1,42 @@
+
+ /* p{
+    color:rgb(234, 11, 11);
+}
+button{
+    color: rgb(243, 11, 11);
+    background-color: beige;
+} */
+*{
+    color: blue;  /* Universal selector*/
+}
+body{
+    background-color :#EED7C5; /* Element selector*/
+}  
+#headingOne{
+    color: red; /* ID selector*/
+}
+.myClass {
+    color: magenta; /* class selector*/
+}
+button{
+    display: block;
+}
+div{
+    width: 100px;
+    height: 100px;
+    margin: 30;
+    padding: 30;
+    display: inline-block;
+}
+#box1{
+    background-color: rgba(0,0,255,0.75);
+}
+#box2{
+    background-color: rgba(0,0,255,0.25);
+}
+#box3{
+    background-color: rgba(0,0,255,0.5);
+}
+#box4{
+    background-color: rgba(0,0,255,1);
+}
